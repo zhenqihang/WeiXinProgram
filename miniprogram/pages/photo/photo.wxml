@@ -1,0 +1,4 @@
+<!--pages/photo/photo.wxml-->
+<view>
+  <image src="{{introduction.fileID}}"></image>
+</view>

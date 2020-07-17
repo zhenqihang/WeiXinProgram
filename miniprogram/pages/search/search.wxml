@@ -1,0 +1,11 @@
+
+  <input confirm-type="search" bindinput="getData" placeholder="请输入电影名"/>
+  <button bindtap="setData">搜索</button>
+  <block>
+    <image src="{{search[0].fileID}}"/>
+    <text>{{item.name}}</text>
+  </block>
+
+ 
+
+

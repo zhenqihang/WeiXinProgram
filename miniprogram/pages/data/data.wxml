@@ -1,0 +1,15 @@
+<form bindsubmit='res'>
+  <view class="section">
+    <input  name="name" placeholder="电影" />
+    <input  name="diretor" placeholder="导演" />
+    <input  name="adaptor" placeholder="编剧" />
+    <input  name="actors" placeholder="演员" />
+    <input  name="language" placeholder="语言" />
+    <input  name="introduction" placeholder="介绍" />
+    <input  name="fileID" placeholder="fileID" />
+    <input  name="madeIn" placeholder="madeIn" />
+    <input  name="classify" placeholder="classify" />
+    
+  </view>
+  <view><button form-type='submit'>提交</button></view>
+</form>

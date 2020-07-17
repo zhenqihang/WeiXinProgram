@@ -1,0 +1,24 @@
+<view>
+ <view class='page_row' bindtap="suo">
+    <view class="search">
+      <view class="df search_arr">
+        <icon class="searchcion" size='20' type='search'></icon>
+        <input class="" disabled placeholder="请输入关键字" value="{{searchValue}}"/>
+      </view>
+    </view>
+    <view class='sousuo'>搜索</view>
+  </view>
+
+<scroll-view>
+   <navigator class="foot" wx:for="{{vedio}}" wx:key="index" id="img_{{index}}" url="../photo/photo?fileID={{item.fileID}}">
+      <image class="img" id="{{name[index]}}" src="{{item.fileID}}" />
+      <text class="test">{{item.name}}</text>
+  </navigator>
+</scroll-view>  
+</view>
+
+
+
+
+
+

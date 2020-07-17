@@ -1,0 +1,7 @@
+<view>
+
+    <image src="{{avatarUrl}}"></image>
+    <button type='primary' open-type='getUserInfo' bindgetuserinfo='bindGetUserInfo'>授权登录</button>
+
+</view>
+
